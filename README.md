@@ -165,4 +165,21 @@ The chatbot application follows this data flow for each user interaction:
 [User Interface] <- [Frontend] <- [Backend] <- [Model Response] <-+
 ```
 
+(.venv2) (base) satishgundu@Satishs-MacBook-Air BedrockChatbot_Jan2025 % ls
+README.md               chatbot_frontend.py
+__pycache__             requirements.txt
+chatbot_backend.py
+(.venv2) (base) satishgundu@Satishs-MacBook-Air BedrockChatbot_Jan2025 % streamlit run chatbot_frontend.py 
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.0.101:8502
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+ ![alt text](image.png)          
+
 Note: The conversation memory is maintained in the Streamlit session state, allowing for contextual responses across multiple user inputs.
